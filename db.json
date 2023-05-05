@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "username": "Saravanakumar ",
+      "email": "saravanakumar682001@gmail.com",
+      "password": "12345678",
+      "cpassword": "12345678",
+      "id": 1
+    },
+    {
+      "username": "saravanak",
+      "email": "saravanak@gmail.com",
+      "password": "55555555",
+      "cpassword": "55555555",
+      "id": 2
+    },
+    {
+      "username": "nandhakumaran",
+      "email": "2k19ee022@kiot.ac.in",
+      "password": "78945612",
+      "cpassword": "78945612",
+      "id": 3
+    }
+  ]
+}

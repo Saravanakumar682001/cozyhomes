@@ -1,0 +1,72 @@
+.loginpage{
+  background-color: rgba(139, 88, 88, 0.5);
+}
+
+.container{
+  display: flex;
+  border:none;
+  width: 500px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(218, 155, 155);
+  border-radius: 10px;
+  box-shadow: 0px 14px 28px rgb(233, 61, 61);
+}
+
+.form-group{
+justify-content: center;
+align-items: center;
+padding: 10px;
+font-weight: bold;
+}
+.adj{
+  position: relative;
+  left: 100px;
+}
+
+.move{
+  position: relative;
+  right: 80px;
+}
+input{
+  position: relative;
+  left: 10px;
+ bottom: 25px;
+}
+.adjust{
+  position: relative;
+  left: 60px;
+}
+
+button{
+border-radius: 10px;
+/* border: 1px solid black; */
+font-size: 12px;
+font-weight: bold;
+padding: 10px 35px;
+letter-spacing: 1px;
+text-transform: uppercase;
+transition: .8s ease-in-out;
+cursor: pointer;
+}
+
+input{
+  /* border: 2px solid black; */
+  border-radius: 5px;
+  padding: 5px;
+}
+
+small{
+  color: red;
+}
+
+a{
+  font-size: medium;
+  font-weight: 400;
+  color: rgb(29, 0, 109);
+}

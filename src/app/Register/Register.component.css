@@ -1,0 +1,71 @@
+.container{
+  display: flex;
+  border:none;
+  width: 500px;
+  height: 450px;
+  padding:40px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgb(219, 177, 177);
+  border-radius: 10px;
+  box-shadow: 0px 14px 28px rgb(233, 61, 61);
+}
+
+.form-group{
+padding: 10px;
+font-weight: bold;
+}
+
+.form-group .h1{
+  justify-content: center;
+  align-items: center;
+}
+
+.moveup{
+  position: relative;
+  left: 120px;
+  bottom: 20px;
+}
+
+button{
+border-radius: 10px;
+background-color: rgb(85, 190, 53);
+border: 1px solid rgb(85, 190, 53);
+font-size: 12px;
+font-weight: bold;
+padding: 10px 35px;
+letter-spacing: 1px;
+text-transform: uppercase;
+transition: .8s ease-in-out;
+position: relative;
+bottom: 30px;
+}
+
+input{
+  border: 2px solid rgb(218, 208, 208);
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+  left: 30px;
+}
+.move{
+  position: relative;
+  left: 110px;
+  bottom: 25px;
+}
+
+small{
+color: red;
+}
+a{
+  font-size: medium;
+  font-weight: 400;
+  color: rgb(29, 0, 109);
+}
+.login{
+  position: relative;
+  left: 200px;
+  bottom: 80px;
+}

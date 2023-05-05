@@ -1,0 +1,32 @@
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  position: relative;
+  background-color: rgb(251, 252, 251);
+  justify-content: space-around;
+}
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav a {
+  text-decoration: none;
+  padding: 20px;
+  color:rgb(7, 7, 7);
+}
+.nav a:hover{
+  background-color: rgb(214, 196, 196);
+  border-radius: 5px;
+}
+.header img{
+  position: relative;
+  right: 170px;
+  width: 50px;
+  height: 50px;
+}
+
+i{
+  padding: 2px;
+}

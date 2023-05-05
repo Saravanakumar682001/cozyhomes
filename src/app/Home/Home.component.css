@@ -1,0 +1,358 @@
+.container-1{
+  max-width: 1170px;
+  margin: auto;
+  }
+  .row-1{
+  display: flex;
+  flex-wrap: wrap;
+  }
+  ol{
+  list-style: none;
+  }
+  .footer{
+  position: relative;
+  top: 250px;
+  background-color: #24262b;
+  padding: 70px 0;
+  /* cursor: pointer; */
+  }
+  .footer-col{
+  width: 25%;
+  padding: 0 15px;
+  cursor: pointer;
+  }
+  .footer-col h4{
+  font-size: 18px;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+  }
+  .footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 70px;
+  }
+  .footer-col ol li:not(:last-child){
+  margin-bottom: 10px;
+  }
+  .footer-col ol li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 300;
+    color: #fdf9f9;
+    display: block;
+    position: relative;
+    right: 30px;
+    transition: all 0.3s ease;
+    }
+    .footer-col ol li a:hover{
+    color: rgb(0, 0, 0);
+    padding-left: 8px;
+    }
+  .footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 1px 1px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  transition: all 0.1s ease;
+  }
+  .footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #fff;
+  }
+
+
+
+
+.brand{
+  position: relative;
+  top: 20px;
+  text-align: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+marquee{
+  color: rgb(236, 236, 241);
+  background: #e91e63;
+}
+
+/* grid */
+
+
+.total{
+  position: relative;
+  bottom: 30px;
+}
+
+.gridbox{
+  position: relative;
+  top:170px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,300px);
+  gap:40px;
+  position: relative;
+  left: 5px;
+}
+.box{
+  position: relative;
+  bottom: 100px;
+  border:2px solid rgb(8, 8, 8, 0);
+  border-radius: 20px;
+  padding:20px;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+}
+img{
+  border-radius: 20px;
+}
+.box:hover{
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),0 3px 6px rgba(0, 0, 0, 0.23);
+  transform: translate(0px, -8px);
+}
+.g-box{
+  position: relative;
+  top:170px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,620px) ;
+  gap:40px;
+  position: relative;
+  left: 5px;
+}
+.box-1{
+  position: relative;
+  bottom: 100px;
+  border:2px solid rgb(8, 8, 8, 0);
+  border-radius: 20px;
+  padding:20px;
+  width: 650px;
+  height: 300px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.box-1:hover{
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),0 3px 6px rgba(0, 0, 0, 0.23);
+  transform: translate(0px, -8px);
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+h5{
+  position: relative;
+  bottom: 5px;
+  /* right: 5px; */
+}
+s{
+  color:rgb(12, 12, 12);
+}
+.fa{
+  font-size: 18px;
+  transition: 0.4s;
+}
+.color{
+  color:#28a745;
+  position: relative;
+  right: 100px;
+  top: 5px;
+}
+.fa:hover{
+  transform: scale(1.3);
+  transition: 0.5s;
+}
+button{
+  position: relative;
+  left: 90px;
+  bottom: 25px;
+  border: none;
+  border-radius: 10px;
+  background: yellow;
+  color: black;
+  padding: 5px 5px;
+}
+.g-box-1{
+  position: relative;
+  top:200px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,400px);
+  gap:40px;
+  position: relative;
+  left: 5px;
+}
+.box-2{
+  position: relative;
+  bottom: 100px;
+  border:2px solid rgb(8, 8, 8, 0);
+  padding:20px;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.box-2:hover{
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),0 3px 6px rgba(0, 0, 0, 0.23);
+  transform: translate(0px, -8px);
+}
+
+.g-box-2{
+  position: relative;
+  top:250px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,219px) ;
+  gap:-10px;
+  position: relative;
+  left: 5px;
+}
+.box-3{
+  position: relative;
+  bottom: 100px;
+  border:2px solid rgb(8, 8, 8 ,0);
+  border-radius: 50px;
+  padding:20px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.box-3:hover{
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),0 3px 6px rgba(0, 0, 0, 0.23);
+  transform: translate(0px, -8px);
+}
+.g-box-3{
+  position: relative;
+  top:300px;
+  display:flex;
+  flex-wrap: wrap;
+  position: relative;
+  left: 5px;
+}
+.box-4{
+  position: relative;
+  bottom: 100px;
+  border:2px solid rgb(8, 8, 8, 0);
+  border-radius: 50px;
+  padding:20px;
+  width: max-content;
+  height: 200px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.box-4:hover{
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),0 3px 6px rgba(0, 0, 0, 0.23);
+  transform: translate(0px, -8px);
+}
+.g-box-4{
+  position: relative;
+  top:190px;
+  display:grid;
+  grid-template-columns: repeat(auto-fit,300px);
+  gap:40px;
+  position: relative;
+  left: 5px;
+}
+.box-5{
+  position: relative;
+  bottom: 100px;
+  border:2px solid rgb(8, 8, 8, 0);
+  padding:20px;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.box-5:hover{
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),0 3px 6px rgba(0, 0, 0, 0.23);
+  transform: translate(0px, -8px);
+}
+
+ /* this if for sliding image */
+/* .up{
+  position: relative;
+  top: 15px;
+}
+
+.slider{
+  width: 100%;
+  height: 300px;
+  border-radius: none;
+  overflow: hidden;
+}
+.slides{
+  width: 500%;
+  height: 300px;
+  display: flex;
+}
+.slides input{
+  display: none;
+}
+.slide{
+  width: 20%;
+  transition: 2s;
+}
+.slide img{
+  width: 100%;
+  height: 300px;
+  border-radius: none;
+}
+.navigation-manual{
+  position: absolute;
+  width: 100%;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+.manual-btn{
+  border: 2px solid rgb(14, 13, 13, 0.1);
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+
+.manual-btn:hover{
+  background: rgb(31, 29, 29, 0.1);
+}
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+#radio2:checked ~ .first{
+  margin-left: -20%;
+}
+#radio3:checked ~ .first{
+  margin-left: -40%;
+}
+#radio4:checked ~ .first{
+  margin-left: -60%;
+}
+#radio5:checked ~ .first{
+  margin-left: -80%;
+}  */
+
